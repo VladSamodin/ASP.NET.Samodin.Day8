@@ -112,7 +112,7 @@ namespace Task1.Matrices.Tests
         }
 
         [TestMethod]
-        public void Indexer_SetNotDiagonalElementDefaultValue_ArgumentOutOfRangeException()
+        public void Indexer_SetNotDiagonalElementDefaultValue_NoException()
         {
             int[,] sourceArray = new int[2, 2] 
                 {

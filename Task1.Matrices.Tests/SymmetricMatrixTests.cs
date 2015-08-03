@@ -99,7 +99,7 @@ namespace Task1.Matrices.Tests
         }
 
         [TestMethod]
-        public void Indexer_SetNotDiagonalValue_ArgumentOutOfRangeException()
+        public void Indexer_SetNotDiagonalValue_SymmetricElementChanges()
         {
             int[,] sourceArray = new int[2, 2] 
                 {
